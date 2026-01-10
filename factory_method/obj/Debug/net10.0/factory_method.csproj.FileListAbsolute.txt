@@ -1,0 +1,14 @@
+C:\cos4311\factory_method\bin\Debug\net10.0\factory_method.exe
+C:\cos4311\factory_method\bin\Debug\net10.0\factory_method.deps.json
+C:\cos4311\factory_method\bin\Debug\net10.0\factory_method.runtimeconfig.json
+C:\cos4311\factory_method\bin\Debug\net10.0\factory_method.dll
+C:\cos4311\factory_method\bin\Debug\net10.0\factory_method.pdb
+C:\cos4311\factory_method\obj\Debug\net10.0\factory_method.GeneratedMSBuildEditorConfig.editorconfig
+C:\cos4311\factory_method\obj\Debug\net10.0\factory_method.AssemblyInfoInputs.cache
+C:\cos4311\factory_method\obj\Debug\net10.0\factory_method.AssemblyInfo.cs
+C:\cos4311\factory_method\obj\Debug\net10.0\factory_method.csproj.CoreCompileInputs.cache
+C:\cos4311\factory_method\obj\Debug\net10.0\factory_method.dll
+C:\cos4311\factory_method\obj\Debug\net10.0\refint\factory_method.dll
+C:\cos4311\factory_method\obj\Debug\net10.0\factory_method.pdb
+C:\cos4311\factory_method\obj\Debug\net10.0\factory_method.genruntimeconfig.cache
+C:\cos4311\factory_method\obj\Debug\net10.0\ref\factory_method.dll

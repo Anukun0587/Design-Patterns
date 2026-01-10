@@ -1,0 +1,14 @@
+C:\cos4311\Adapter\bin\Debug\net10.0\Adapter.exe
+C:\cos4311\Adapter\bin\Debug\net10.0\Adapter.deps.json
+C:\cos4311\Adapter\bin\Debug\net10.0\Adapter.runtimeconfig.json
+C:\cos4311\Adapter\bin\Debug\net10.0\Adapter.dll
+C:\cos4311\Adapter\bin\Debug\net10.0\Adapter.pdb
+C:\cos4311\Adapter\obj\Debug\net10.0\Adapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\cos4311\Adapter\obj\Debug\net10.0\Adapter.AssemblyInfoInputs.cache
+C:\cos4311\Adapter\obj\Debug\net10.0\Adapter.AssemblyInfo.cs
+C:\cos4311\Adapter\obj\Debug\net10.0\Adapter.csproj.CoreCompileInputs.cache
+C:\cos4311\Adapter\obj\Debug\net10.0\Adapter.dll
+C:\cos4311\Adapter\obj\Debug\net10.0\refint\Adapter.dll
+C:\cos4311\Adapter\obj\Debug\net10.0\Adapter.pdb
+C:\cos4311\Adapter\obj\Debug\net10.0\Adapter.genruntimeconfig.cache
+C:\cos4311\Adapter\obj\Debug\net10.0\ref\Adapter.dll

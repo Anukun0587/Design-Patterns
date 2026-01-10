@@ -1,0 +1,14 @@
+C:\cos4311\Builder\bin\Debug\net10.0\Builder.exe
+C:\cos4311\Builder\bin\Debug\net10.0\Builder.deps.json
+C:\cos4311\Builder\bin\Debug\net10.0\Builder.runtimeconfig.json
+C:\cos4311\Builder\bin\Debug\net10.0\Builder.dll
+C:\cos4311\Builder\bin\Debug\net10.0\Builder.pdb
+C:\cos4311\Builder\obj\Debug\net10.0\Builder.GeneratedMSBuildEditorConfig.editorconfig
+C:\cos4311\Builder\obj\Debug\net10.0\Builder.AssemblyInfoInputs.cache
+C:\cos4311\Builder\obj\Debug\net10.0\Builder.AssemblyInfo.cs
+C:\cos4311\Builder\obj\Debug\net10.0\Builder.csproj.CoreCompileInputs.cache
+C:\cos4311\Builder\obj\Debug\net10.0\Builder.dll
+C:\cos4311\Builder\obj\Debug\net10.0\refint\Builder.dll
+C:\cos4311\Builder\obj\Debug\net10.0\Builder.pdb
+C:\cos4311\Builder\obj\Debug\net10.0\Builder.genruntimeconfig.cache
+C:\cos4311\Builder\obj\Debug\net10.0\ref\Builder.dll

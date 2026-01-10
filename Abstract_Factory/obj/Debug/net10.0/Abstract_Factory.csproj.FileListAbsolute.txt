@@ -1,0 +1,14 @@
+C:\cos4311\Abstract_Factory\bin\Debug\net10.0\Abstract_Factory.exe
+C:\cos4311\Abstract_Factory\bin\Debug\net10.0\Abstract_Factory.deps.json
+C:\cos4311\Abstract_Factory\bin\Debug\net10.0\Abstract_Factory.runtimeconfig.json
+C:\cos4311\Abstract_Factory\bin\Debug\net10.0\Abstract_Factory.dll
+C:\cos4311\Abstract_Factory\bin\Debug\net10.0\Abstract_Factory.pdb
+C:\cos4311\Abstract_Factory\obj\Debug\net10.0\Abstract_Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\cos4311\Abstract_Factory\obj\Debug\net10.0\Abstract_Factory.AssemblyInfoInputs.cache
+C:\cos4311\Abstract_Factory\obj\Debug\net10.0\Abstract_Factory.AssemblyInfo.cs
+C:\cos4311\Abstract_Factory\obj\Debug\net10.0\Abstract_Factory.csproj.CoreCompileInputs.cache
+C:\cos4311\Abstract_Factory\obj\Debug\net10.0\Abstract_Factory.dll
+C:\cos4311\Abstract_Factory\obj\Debug\net10.0\refint\Abstract_Factory.dll
+C:\cos4311\Abstract_Factory\obj\Debug\net10.0\Abstract_Factory.pdb
+C:\cos4311\Abstract_Factory\obj\Debug\net10.0\Abstract_Factory.genruntimeconfig.cache
+C:\cos4311\Abstract_Factory\obj\Debug\net10.0\ref\Abstract_Factory.dll
