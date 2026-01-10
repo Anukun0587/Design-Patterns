@@ -25,7 +25,6 @@ class Program
         ThaiText enAdapter1 = new EN_Adapter(englishSource1);
         ThaiText enAdapter2 = new EN_Adapter(englishSource2);
 
-        // Display translations
         Console.WriteLine("Translated to Thai:");
         Console.WriteLine($"Japanese: {japaneseSource1.GetText()} -> {jpAdapter1.getThaiText()}");
         Console.WriteLine($"Japanese: {japaneseSource2.GetText()} -> {jpAdapter2.getThaiText()}");

@@ -19,7 +19,6 @@ namespace adapters.adapter
 
         private string TranslateEnglishToThai(string englishText)
         {
-            // Simple translation mapping
             return englishText.ToLower() switch
             {
                 "hello" => "สวัสดี",
