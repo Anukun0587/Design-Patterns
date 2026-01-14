@@ -12,3 +12,18 @@ C:\cos4311\Adapter\obj\Debug\net10.0\refint\Adapter.dll
 C:\cos4311\Adapter\obj\Debug\net10.0\Adapter.pdb
 C:\cos4311\Adapter\obj\Debug\net10.0\Adapter.genruntimeconfig.cache
 C:\cos4311\Adapter\obj\Debug\net10.0\ref\Adapter.dll
+C:\Design Patterns\Adapter\bin\Debug\net10.0\Adapter.exe
+C:\Design Patterns\Adapter\bin\Debug\net10.0\Adapter.deps.json
+C:\Design Patterns\Adapter\bin\Debug\net10.0\Adapter.runtimeconfig.json
+C:\Design Patterns\Adapter\bin\Debug\net10.0\Adapter.dll
+C:\Design Patterns\Adapter\bin\Debug\net10.0\Adapter.pdb
+C:\Design Patterns\Adapter\obj\Debug\net10.0\Adapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Design Patterns\Adapter\obj\Debug\net10.0\Adapter.AssemblyInfoInputs.cache
+C:\Design Patterns\Adapter\obj\Debug\net10.0\Adapter.AssemblyInfo.cs
+C:\Design Patterns\Adapter\obj\Debug\net10.0\Adapter.csproj.CoreCompileInputs.cache
+C:\Design Patterns\Adapter\obj\Debug\net10.0\Adapter.sourcelink.json
+C:\Design Patterns\Adapter\obj\Debug\net10.0\Adapter.dll
+C:\Design Patterns\Adapter\obj\Debug\net10.0\refint\Adapter.dll
+C:\Design Patterns\Adapter\obj\Debug\net10.0\Adapter.pdb
+C:\Design Patterns\Adapter\obj\Debug\net10.0\Adapter.genruntimeconfig.cache
+C:\Design Patterns\Adapter\obj\Debug\net10.0\ref\Adapter.dll

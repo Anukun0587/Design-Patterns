@@ -13,13 +13,7 @@ namespace adapters.adapter
 
         public string getThaiText()
         {
-            string englishText = this.adaptee.GetText();
-            return TranslateEnglishToThai(englishText);
-        }
-
-        private string TranslateEnglishToThai(string englishText)
-        {
-            return englishText.ToLower() switch
+            return this.adaptee.GetText().ToLower() switch
             {
                 "hello" => "สวัสดี",
                 "thank you" => "ขอบคุณ",
@@ -27,7 +21,7 @@ namespace adapters.adapter
                 "good morning" => "สวัสดีตอนเช้า",
                 "good night" => "ราตรีสวัสดิ์",
                 "welcome" => "ยินดีต้อนรับ",
-                _ => $"[แปลจากอังกฤษ: {englishText}]"
+                _ => $"[แปลจากอังกฤษ: {this.adaptee.GetText().ToLower()}]"
             };
         }
     }

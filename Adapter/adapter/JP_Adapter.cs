@@ -13,20 +13,14 @@ namespace adapters.adapter
 
         public string getThaiText()
         {
-            string japaneseText = this.adaptee.GetText();
-            return TranslateJapaneseToThai(japaneseText);
-        }
-
-        private string TranslateJapaneseToThai(string japaneseText)
-        {
-            return japaneseText switch
+            return this.adaptee.GetText() switch
             {
                 "こんにちは" => "สวัสดี",
                 "ありがとう" => "ขอบคุณ",
                 "さようなら" => "ลาก่อน",
                 "おはよう" => "สวัสดีตอนเช้า",
                 "おやすみ" => "ราตรีสวัสดิ์",
-                _ => $"[แปลจากญี่ปุ่น: {japaneseText}]"
+                _ => $"[แปลจากญี่ปุ่น: {this.adaptee.GetText()}]"
             };
         }
     }
