@@ -17,10 +17,6 @@ namespace adapters.adapter
             {
                 "hello" => "สวัสดี",
                 "thank you" => "ขอบคุณ",
-                "goodbye" => "ลาก่อน",
-                "good morning" => "สวัสดีตอนเช้า",
-                "good night" => "ราตรีสวัสดิ์",
-                "welcome" => "ยินดีต้อนรับ",
                 _ => $"[แปลจากอังกฤษ: {this.adaptee.GetText().ToLower()}]"
             };
         }

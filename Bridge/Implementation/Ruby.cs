@@ -2,36 +2,36 @@ namespace Bridge.Implementation
 {
     public class Ruby : IGemstone
     {
-        private string statBonus;
+        private int strength;
         private string rarity;
 
-        public Ruby(string statBonus, string rarity)
+        public Ruby(int strength, string rarity)
         {
-            this.statBonus = statBonus;
+            this.strength = strength;
             this.rarity = rarity;
         }
 
-        public string GetGemName()
+        public string getGemName()
         {
             return "Ruby";
         }
 
-        public string GetStatBonus()
+        public string getStatBonus()
         {
-            return statBonus;
+            return $"Strength + {strength}";
         }
 
-        public void SetStatBonus(string statBonus)
+        public void setStatBonus(int strength)
         {
-            this.statBonus = statBonus;
+            this.strength = strength;
         }
 
-        public string GetRarity()
+        public string getRarity()
         {
             return rarity;
         }
 
-        public void SetRarity(string rarity)
+        public void setRarity(string rarity)
         {
             this.rarity = rarity;
         }

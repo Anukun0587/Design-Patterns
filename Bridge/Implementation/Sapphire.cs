@@ -2,36 +2,36 @@ namespace Bridge.Implementation
 {
     public class Sapphire : IGemstone
     {
-        private string statBonus;
+        private int mana;
         private string rarity;
 
-        public Sapphire(string statBonus, string rarity)
+        public Sapphire(int mana, string rarity)
         {
-            this.statBonus = statBonus;
+            this.mana = mana;
             this.rarity = rarity;
         }
 
-        public string GetGemName()
+        public string getGemName()
         {
             return "Sapphire";
         }
 
-        public string GetStatBonus()
+        public string getStatBonus()
         {
-            return statBonus;
+            return $"Mana + {mana}";
         }
 
-        public void SetStatBonus(string statBonus)
+        public void setStatBonus(int mana)
         {
-            this.statBonus = statBonus;
+            this.mana = mana;
         }
 
-        public string GetRarity()
+        public string getRarity()
         {
             return rarity;
         }
 
-        public void SetRarity(string rarity)
+        public void setRarity(string rarity)
         {
             this.rarity = rarity;
         }

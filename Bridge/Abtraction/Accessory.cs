@@ -2,26 +2,26 @@ using Bridge.Implementation;
 
 namespace Bridge.Abstraction
 {
-    public abstract class Amulet
+    public abstract class Accessory
     {
         private IGemstone gemstone;
         private string material;
         private string name;
 
-        public Amulet(IGemstone gemstone, string material, string name)
+        public Accessory(IGemstone gemstone, string material, string name)
         {
             this.gemstone = gemstone;
             this.material = material;
             this.name = name;
         }
 
-        public virtual string GetAmuletInfo()
+        public virtual string getAccessoryInfo()
         {
-            return $"Amulet: {name}\n" +
+            return $"Accessory: {name}\n" +
                    $"Material: {material}\n" +
-                   $"Gemstone: {gemstone.GetGemName()}\n" +
-                   $"Stat Bonus: {gemstone.GetStatBonus()}\n" +
-                   $"Rarity: {gemstone.GetRarity()}";
+                   $"Gemstone: {gemstone.getGemName()}\n" +
+                   $"Stat Bonus: {gemstone.getStatBonus()}\n" +
+                   $"Rarity: {gemstone.getRarity()}";
         }
 
         public IGemstone Gemstone

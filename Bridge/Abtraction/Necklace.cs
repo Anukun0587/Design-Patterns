@@ -2,16 +2,16 @@ using Bridge.Implementation;
 
 namespace Bridge.Abstraction
 {
-    public class Necklace : Amulet
+    public class Necklace : Accessory
     {
         public Necklace(IGemstone gemstone, string material, string name) 
             : base(gemstone, material, name)
         {
         }
 
-        public override string GetAmuletInfo()
+        public override string getAccessoryInfo()
         {
-            return "=== Necklace ===\n" + base.GetAmuletInfo();
+            return "=== Necklace ===\n" + base.getAccessoryInfo();
         }
     }
 }

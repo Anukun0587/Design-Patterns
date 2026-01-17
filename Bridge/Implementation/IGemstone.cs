@@ -2,10 +2,10 @@ namespace Bridge.Implementation
 {
     public interface IGemstone
     {
-        string GetGemName();
-        void SetStatBonus(string statBonus);
-        string GetStatBonus();
-        void SetRarity(string rarity);
-        string GetRarity();
+        string getGemName();
+        void setStatBonus(int statBonus);
+        string getStatBonus();
+        void setRarity(string rarity);
+        string getRarity();
     }
 }
