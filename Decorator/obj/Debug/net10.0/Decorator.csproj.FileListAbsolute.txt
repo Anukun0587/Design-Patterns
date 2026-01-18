@@ -1,0 +1,15 @@
+C:\Design Patterns\Decorator\bin\Debug\net10.0\Decorator.exe
+C:\Design Patterns\Decorator\bin\Debug\net10.0\Decorator.deps.json
+C:\Design Patterns\Decorator\bin\Debug\net10.0\Decorator.runtimeconfig.json
+C:\Design Patterns\Decorator\bin\Debug\net10.0\Decorator.dll
+C:\Design Patterns\Decorator\bin\Debug\net10.0\Decorator.pdb
+C:\Design Patterns\Decorator\obj\Debug\net10.0\Decorator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Design Patterns\Decorator\obj\Debug\net10.0\Decorator.AssemblyInfoInputs.cache
+C:\Design Patterns\Decorator\obj\Debug\net10.0\Decorator.AssemblyInfo.cs
+C:\Design Patterns\Decorator\obj\Debug\net10.0\Decorator.csproj.CoreCompileInputs.cache
+C:\Design Patterns\Decorator\obj\Debug\net10.0\Decorator.sourcelink.json
+C:\Design Patterns\Decorator\obj\Debug\net10.0\Decorator.dll
+C:\Design Patterns\Decorator\obj\Debug\net10.0\refint\Decorator.dll
+C:\Design Patterns\Decorator\obj\Debug\net10.0\Decorator.pdb
+C:\Design Patterns\Decorator\obj\Debug\net10.0\Decorator.genruntimeconfig.cache
+C:\Design Patterns\Decorator\obj\Debug\net10.0\ref\Decorator.dll
