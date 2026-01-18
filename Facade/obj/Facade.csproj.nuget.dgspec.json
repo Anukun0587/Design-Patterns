@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Design Patterns\\Decorator\\Decorator.csproj": {}
+    "C:\\Design Patterns\\Facade\\Facade.csproj": {}
   },
   "projects": {
-    "c:\\Design Patterns\\Decorator\\Decorator.csproj": {
+    "C:\\Design Patterns\\Facade\\Facade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Design Patterns\\Decorator\\Decorator.csproj",
-        "projectName": "Decorator",
-        "projectPath": "c:\\Design Patterns\\Decorator\\Decorator.csproj",
+        "projectUniqueName": "C:\\Design Patterns\\Facade\\Facade.csproj",
+        "projectName": "Facade",
+        "projectPath": "C:\\Design Patterns\\Facade\\Facade.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "c:\\Design Patterns\\Decorator\\obj\\",
+        "outputPath": "C:\\Design Patterns\\Facade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
