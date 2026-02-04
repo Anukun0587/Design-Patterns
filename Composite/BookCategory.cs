@@ -24,5 +24,15 @@ namespace Composite
                 item.getDetails();
             }
         }
+
+        public int getCount()
+        {
+            int total = 0;
+            foreach (var item in items)
+            {
+                total += item.getCount();
+            }
+            return total;
+        }
     }
 }

@@ -23,6 +23,10 @@ namespace DecoratorPattern
             Console.WriteLine("\n--- Applying Blur Filter And Grayscale Filter And Brightness Filter---");
             IImage addGrayscaleImage_and_Brightness_and_Blur = new BlurFilter(addGrayscaleImage_and_Brightness);
             addGrayscaleImage_and_Brightness_and_Blur.render();
+
+            Console.WriteLine("\n--- Applying Blur Filter And Grayscale Filter And Blur And Brightness Filter---");
+            IImage addGrayscaleImage_and_Brightness_and_Blur_and_Blur = new BlurFilter(addGrayscaleImage_and_Brightness_and_Blur);
+            addGrayscaleImage_and_Brightness_and_Blur_and_Blur.render();
         }
     }
 }
