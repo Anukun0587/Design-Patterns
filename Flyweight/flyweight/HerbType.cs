@@ -13,19 +13,19 @@ namespace HerbInventory.Flyweight
             this.medicinalEffect = medicinalEffect;
         }
 
-        public string GetDescription()
+        public string GetHerbTypeInfo()
         {
             return $" - สมุนไพร: {name}" +
                    $"\nประเภท: {category}" +
                    $"\nสรรพคุณ: {medicinalEffect}";
         }
 
-        public void DisplayDetails(int quantity, string quality, string collectedLocation)
+        public void DisplayDetails(string name, int quantity, string quality)
         {
-            Console.WriteLine($"\nจำนวน: {quantity} ชิ้น" +
+            Console.WriteLine($"\nชื่อสมุนไพร: {name}" +
+                              $"\nจำนวน: {quantity} ชิ้น" +
                               $"\nคุณภาพ: {quality}" +
-                              $"\nเก็บจาก: {collectedLocation}" +
-                              $"\n{GetDescription()}");
+                              $"\n{GetHerbTypeInfo()}");
         }
     }
 }

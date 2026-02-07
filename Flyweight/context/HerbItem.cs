@@ -5,22 +5,22 @@ namespace HerbInventory.Context
 {
     public class HerbItem
     {
+        private string name;
         private int quantity;
         private string quality; 
-        private string collectedLocation;
         private HerbType herbType;
 
-        public HerbItem(int quantity, string quality, string collectedLocation, string herbName, string category, string medicinalEffect, HerbTypeFactory factory)
+        public HerbItem(string name, int quantity, string quality, string herbName, string category, string medicinalEffect, HerbTypeFactory factory)
         {
+            this.name = name;
             this.quantity = quantity;
             this.quality = quality;
-            this.collectedLocation = collectedLocation;
             this.herbType = factory.GetHerbType(herbName, category, medicinalEffect);
         }
 
         public void PrintDetails()
         {
-            herbType.DisplayDetails(quantity, quality, collectedLocation);
+            herbType.DisplayDetails(name, quantity, quality);
         }
     }
 }

@@ -15,21 +15,12 @@ namespace HerbInventory.Factory
             return herbTypes[name];
         }
 
-        public HerbType GetHerbTypeByName(string name)
-        {
-            if (!herbTypes.ContainsKey(name))
-            {
-                throw new KeyNotFoundException($"ไม่พบสมุนไพร: {name} ในระบบ");
-            }
-            return herbTypes[name];
-        }
-
         public void ListAllHerbTypes()
         {
             foreach (var herb in herbTypes.Values)
             {
                 Console.WriteLine("-----");
-                Console.WriteLine(herb.GetDescription());
+                Console.WriteLine(herb.GetHerbTypeInfo());
             }
         }
     }

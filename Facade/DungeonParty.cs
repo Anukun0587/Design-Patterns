@@ -28,7 +28,7 @@ namespace FacadePattern
             priest.Resurrection();
         }
 
-        public void EmergencyEscape(string safeLocation)
+        public void Escape(string safeLocation)
         {
             Console.WriteLine(">>> [EVENT: Emergency Escape] <<<");
             knight.IronDefense();

@@ -21,7 +21,7 @@
             myParty.EnterBossFight("The Void Architect");
 
             Console.WriteLine("\n Time to escape!");
-            myParty.EmergencyEscape("Safe Haven");
+            myParty.Escape("Safe Haven");
         }
     }
 }
