@@ -1,0 +1,15 @@
+C:\Design Patterns\Iterator\bin\Debug\net10.0\Iterator.exe
+C:\Design Patterns\Iterator\bin\Debug\net10.0\Iterator.deps.json
+C:\Design Patterns\Iterator\bin\Debug\net10.0\Iterator.runtimeconfig.json
+C:\Design Patterns\Iterator\bin\Debug\net10.0\Iterator.dll
+C:\Design Patterns\Iterator\bin\Debug\net10.0\Iterator.pdb
+C:\Design Patterns\Iterator\obj\Debug\net10.0\Iterator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Design Patterns\Iterator\obj\Debug\net10.0\Iterator.AssemblyInfoInputs.cache
+C:\Design Patterns\Iterator\obj\Debug\net10.0\Iterator.AssemblyInfo.cs
+C:\Design Patterns\Iterator\obj\Debug\net10.0\Iterator.csproj.CoreCompileInputs.cache
+C:\Design Patterns\Iterator\obj\Debug\net10.0\Iterator.sourcelink.json
+C:\Design Patterns\Iterator\obj\Debug\net10.0\Iterator.dll
+C:\Design Patterns\Iterator\obj\Debug\net10.0\refint\Iterator.dll
+C:\Design Patterns\Iterator\obj\Debug\net10.0\Iterator.pdb
+C:\Design Patterns\Iterator\obj\Debug\net10.0\Iterator.genruntimeconfig.cache
+C:\Design Patterns\Iterator\obj\Debug\net10.0\ref\Iterator.dll
