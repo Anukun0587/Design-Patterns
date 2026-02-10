@@ -1,0 +1,15 @@
+C:\Design Patterns\Command\bin\Debug\net10.0\Command.exe
+C:\Design Patterns\Command\bin\Debug\net10.0\Command.deps.json
+C:\Design Patterns\Command\bin\Debug\net10.0\Command.runtimeconfig.json
+C:\Design Patterns\Command\bin\Debug\net10.0\Command.dll
+C:\Design Patterns\Command\bin\Debug\net10.0\Command.pdb
+C:\Design Patterns\Command\obj\Debug\net10.0\Command.GeneratedMSBuildEditorConfig.editorconfig
+C:\Design Patterns\Command\obj\Debug\net10.0\Command.AssemblyInfoInputs.cache
+C:\Design Patterns\Command\obj\Debug\net10.0\Command.AssemblyInfo.cs
+C:\Design Patterns\Command\obj\Debug\net10.0\Command.csproj.CoreCompileInputs.cache
+C:\Design Patterns\Command\obj\Debug\net10.0\Command.sourcelink.json
+C:\Design Patterns\Command\obj\Debug\net10.0\Command.dll
+C:\Design Patterns\Command\obj\Debug\net10.0\refint\Command.dll
+C:\Design Patterns\Command\obj\Debug\net10.0\Command.pdb
+C:\Design Patterns\Command\obj\Debug\net10.0\Command.genruntimeconfig.cache
+C:\Design Patterns\Command\obj\Debug\net10.0\ref\Command.dll
