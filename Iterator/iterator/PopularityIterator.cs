@@ -5,12 +5,12 @@ namespace Iterator.iterator
     public class PopularityIterator : INovelIterator
     {
         public List<Novel> novels;
-        public int currentIndex;
+        public int index;
 
         public PopularityIterator(INovelCollection novelCollection)
         {
             novels = new List<Novel>();
-            currentIndex = 0;
+            index = 0;
 
             for (int i = 0; i < novelCollection.getSize(); i++)
             {
@@ -22,12 +22,12 @@ namespace Iterator.iterator
 
         public Novel getNext()
         {
-            return novels[currentIndex++];
+            return novels[index++];
         }
 
         public bool hasMore()
         {
-            return currentIndex < novels.Count;
+            return index < novels.Count;
         }
     }
 }

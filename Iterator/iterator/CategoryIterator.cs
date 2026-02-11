@@ -5,13 +5,13 @@ namespace Iterator.iterator
     public class CategoryIterator : INovelIterator
     {
         public List<Novel> novels;
-        public int currentIndex;
+        public int index;
         public string targetCategory;
 
         public CategoryIterator(INovelCollection novelCollection, string category)
         {
             novels = new List<Novel>();
-            currentIndex = 0;
+            index = 0;
             targetCategory = category;
 
             for (int i = 0; i < novelCollection.getSize(); i++)
@@ -26,12 +26,12 @@ namespace Iterator.iterator
 
         public Novel getNext()
         {   
-            return novels[currentIndex++];
+            return novels[index++];
         }
 
         public bool hasMore()
         {
-            return currentIndex < novels.Count;
+            return index < novels.Count;
         }
     }
 }
