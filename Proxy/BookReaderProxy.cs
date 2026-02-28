@@ -23,11 +23,6 @@ namespace Proxy
             }
         }
 
-        public void GetChapterSummary()
-        {
-            realBook.GetChapterSummary();
-        }
-
         public void DownloadChapter(int chapterNumber)
         {
             if (isPremiumUser)

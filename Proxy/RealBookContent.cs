@@ -15,11 +15,6 @@ namespace Proxy
             Console.WriteLine($"กำลังอ่าน: {bookTitle} - บทที่ {chapterNumber}");
         }
 
-        public void GetChapterSummary()
-        {
-            Console.WriteLine($"เรื่องย่อของหนังสือ '{bookTitle}'");
-        }
-
         public void DownloadChapter(int chapterNumber)
         {
             Console.WriteLine($"ดาวน์โหลดสำเร็จ! บทที่ {chapterNumber} ของ '{bookTitle}' พร้อมอ่านออฟไลน์แล้ว");
