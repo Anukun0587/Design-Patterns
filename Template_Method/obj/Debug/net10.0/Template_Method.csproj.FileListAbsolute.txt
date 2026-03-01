@@ -1,0 +1,15 @@
+C:\Design Patterns\Template_Method\bin\Debug\net10.0\Template_Method.exe
+C:\Design Patterns\Template_Method\bin\Debug\net10.0\Template_Method.deps.json
+C:\Design Patterns\Template_Method\bin\Debug\net10.0\Template_Method.runtimeconfig.json
+C:\Design Patterns\Template_Method\bin\Debug\net10.0\Template_Method.dll
+C:\Design Patterns\Template_Method\bin\Debug\net10.0\Template_Method.pdb
+C:\Design Patterns\Template_Method\obj\Debug\net10.0\Template_Method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Design Patterns\Template_Method\obj\Debug\net10.0\Template_Method.AssemblyInfoInputs.cache
+C:\Design Patterns\Template_Method\obj\Debug\net10.0\Template_Method.AssemblyInfo.cs
+C:\Design Patterns\Template_Method\obj\Debug\net10.0\Template_Method.csproj.CoreCompileInputs.cache
+C:\Design Patterns\Template_Method\obj\Debug\net10.0\Template_Method.sourcelink.json
+C:\Design Patterns\Template_Method\obj\Debug\net10.0\Template_Method.dll
+C:\Design Patterns\Template_Method\obj\Debug\net10.0\refint\Template_Method.dll
+C:\Design Patterns\Template_Method\obj\Debug\net10.0\Template_Method.pdb
+C:\Design Patterns\Template_Method\obj\Debug\net10.0\Template_Method.genruntimeconfig.cache
+C:\Design Patterns\Template_Method\obj\Debug\net10.0\ref\Template_Method.dll
