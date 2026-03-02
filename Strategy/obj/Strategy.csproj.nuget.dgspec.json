@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Design Patterns\\Strategy\\Strategy.csproj": {}
+    "C:\\Design Patterns\\Strategy\\Strategy.csproj": {}
   },
   "projects": {
-    "c:\\Design Patterns\\Strategy\\Strategy.csproj": {
+    "C:\\Design Patterns\\Strategy\\Strategy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Design Patterns\\Strategy\\Strategy.csproj",
+        "projectUniqueName": "C:\\Design Patterns\\Strategy\\Strategy.csproj",
         "projectName": "Strategy",
-        "projectPath": "c:\\Design Patterns\\Strategy\\Strategy.csproj",
+        "projectPath": "C:\\Design Patterns\\Strategy\\Strategy.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "c:\\Design Patterns\\Strategy\\obj\\",
+        "outputPath": "C:\\Design Patterns\\Strategy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

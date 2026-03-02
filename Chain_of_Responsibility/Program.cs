@@ -1,70 +1,39 @@
-﻿using DamageSystem.Handler;
-using DamageSystem.Models;
+﻿using Chain_of_Responsibility.Handler;
+using Chain_of_Responsibility.context;
 
-namespace DamageSystem
+namespace Chain_of_Responsibility
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            var baseDamageHandler     = new BaseDamageHandler();
-            var buffMultiplierHandler = new BuffMultiplierHandler();
-            var elementalHandler      = new ElementalHandler();
-            var defenseMitigation     = new DefenseMitigationHandler();
-            var criticalHitHandler    = new CriticalHitHandler();
+            ILoanHandler credit = new CreditScoreHandler();
+            ILoanHandler income = new IncomeHandler();
+            ILoanHandler debt = new DebtHandler();
+            ILoanHandler approval = new ApprovalHandler();
 
-            baseDamageHandler
-                .SetNext(buffMultiplierHandler)
-                .SetNext(elementalHandler)
-                .SetNext(defenseMitigation)
-                .SetNext(criticalHitHandler);
+            credit.setNext(income).setNext(debt).setNext(approval);
 
-            var damageSystem = new DamageSystem(baseDamageHandler);
+            run(credit, "TEST 1: อนุมัติ", new LoanContext("สมชาย ใจดี", 500000, 780, 50000, 8000));
 
-            //  Case 1: ตีโดนจุดอ่อน + มี Buff + ติด Crit
-            Console.WriteLine("\n Case 1: Fire hits Ice Golem's weakness + Buff + Critical");
-            var hero = new Attacker { Name = "SUKSAN HERO", HasBuff = true, BuffMultiplier = 1.5f, Element = "Fire" };
-            var ctx1 = new DamageContext
+            run(credit, "TEST 2: Credit Score ต่ำ", new LoanContext("สมหญิง รักเงิน", 200000, 520, 30000, 5000));
+
+            run(credit, "TEST 3: วงเงินสูงเกินไป", new LoanContext("มานะ อยากรวย", 5000000, 700, 25000, 3000));
+
+            run(credit, "TEST 4: DTI สูงเกินไป", new LoanContext("วิชัย หนี้ท่วม", 300000, 650, 30000, 18000));
+
+        }
+        public static void run(ILoanHandler handler, string title, LoanContext ctx)
+        {
+            Console.WriteLine($"\n===== {title} =====");
+            try
             {
-                Attacker        = hero,
-                EnemyName       = "Ice Golem",
-                EnemyWeakness   = "Fire",
-                EnemyResistance = "Ice",
-                EnemyDefense    = 20,
-                WeaponDamage    = 100,
-                IsCritical      = true
-            };
-            damageSystem.CalculateDamage(ctx1);
-
-            // Case 2: โดนทน + ไม่มี Buff + ไม่ติด Crit
-            Console.WriteLine("\n Case 2: Fire hits Fire Drake (resistant) + No Buff + No Crit");
-            var mage = new Attacker { Name = "MAGE", HasBuff = false, Element = "Fire" };
-            var ctx2 = new DamageContext
+                handler.handle(ctx);
+            }
+            catch (Exception e)
             {
-                Attacker        = mage,
-                EnemyName       = "Fire Drake",
-                EnemyWeakness   = "Ice",
-                EnemyResistance = "Fire",
-                EnemyDefense    = 10,
-                WeaponDamage    = 80,
-                IsCritical      = false
-            };
-            damageSystem.CalculateDamage(ctx2);
-
-            //  Case 3: Neutral Element + No Buff + ติด Crit
-            Console.WriteLine("\n Case 3: Earth hits Skeleton (neutral) + Critical");
-            var warrior = new Attacker { Name = "WARRIOR", HasBuff = false, Element = "Earth" };
-            var ctx3 = new DamageContext
-            {
-                Attacker        = warrior,
-                EnemyName       = "Skeleton",
-                EnemyWeakness   = "Fire",
-                EnemyResistance = "Ice",
-                EnemyDefense    = 5,
-                WeaponDamage    = 60,
-                IsCritical      = true
-            };
-            damageSystem.CalculateDamage(ctx3);
+                Console.WriteLine($"ปฏิเสธ: {e.Message}");
+            }
         }
     }
 }

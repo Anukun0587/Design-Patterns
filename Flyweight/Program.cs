@@ -1,42 +1,72 @@
-﻿using HerbInventory.Context;
-using HerbInventory.Factory;
+﻿using Flyweight.context;
+using Flyweight.factory;
 
 namespace HerbInventory
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("{ Herb Inventory }\n");
+            BookFactory factory = new BookFactory();
 
-            HerbTypeFactory herbFactory = new HerbTypeFactory();
+            Console.WriteLine("===== ระบบห้องสมุดดิจิทัล — Flyweight Pattern =====\n");
 
-            HerbItem ginseng1 = new HerbItem("โสม 100 ปี", 3, "ธรรมดา", "โสม", "ร้อน", "ฟื้นฟูและเพิ่มพูนลมปราณ", herbFactory);
-            HerbItem pennywort1 = new HerbItem("ใบบัวบกขาว", 5, "ดี", "ใบบัวบก", "เย็น", "รักษาอาการบาดเจ็บภายใน", herbFactory);
+            // ── หนังสือ A : "Design Patterns" มี 3 Copy ที่ถูกยืมพร้อมกัน ──
+            BookCopy copy1 = new BookCopy(
+                barcode: "BC-001",
+                borrowerName: "สมชาย ใจดี",
+                borrowerTel: "081-111-1111",
+                borrowDate: DateTime.Now.ToString("dd/MM/yyyy"),
+                dueDate: DateTime.Now.AddDays(20).ToString("dd/MM/yyyy"),
+                title: "Design Patterns",
+                author: "Robert C. Martin",
+                isbn: "9780132350884",
+                factory: factory);
 
-            Console.WriteLine("{ ginseng1, pennywort1 }\n");
-            ginseng1.PrintDetails();
-            pennywort1.PrintDetails();
+            BookCopy copy2 = new BookCopy(
+                barcode: "BC-002",
+                borrowerName: "มาลี รักอ่าน",
+                borrowerTel: "082-222-2222",
+                borrowDate: DateTime.Now.ToString("dd/MM/yyyy"),
+                dueDate: DateTime.Now.AddDays(14).ToString("dd/MM/yyyy"),
+                title: "Design Patterns",
+                author: "Robert C. Martin",
+                isbn: "9780132350884",
+                factory: factory);
 
-            Console.WriteLine("\n{ show all herb types }");
-            herbFactory.ListAllHerbTypes();
+            BookCopy copy3 = new BookCopy(
+                barcode: "BC-003",
+                borrowerName: "วิทย์ อิอิ",
+                borrowerTel: "083-333-3333",
+                borrowDate: DateTime.Now.ToString("dd/MM/yyyy"),
+                dueDate: DateTime.Now.AddDays(5).ToString("dd/MM/yyyy"),
+                title: "Design Patterns",
+                author: "Robert C. Martin",
+                isbn: "9780132350884",
+                factory: factory);
 
-            HerbItem ginseng2 = new HerbItem("โสม 1000 ปี", 2, "ตำนาน", "โสม", "ร้อน", "ฟื้นฟูและเพิ่มพูนลมปราณ", herbFactory);
-            HerbItem pennywort2 = new HerbItem("ใบบัวบกแดง", 4, "พิเศษ", "ใบบัวบก", "เย็น", "รักษาอาการบาดเจ็บภายใน", herbFactory);
+            // ── หนังสือ B : "Otherside Picnic" อีก ISBN ──
+            BookCopy copy4 = new BookCopy(
+                barcode: "BC-101",
+                borrowerName: "นิรันดร์ อ่านเยอะ",
+                borrowerTel: "084-444-4444",
+                borrowDate: DateTime.Now.ToString("dd/MM/yyyy"),
+                dueDate: DateTime.Now.AddDays(10).ToString("dd/MM/yyyy"),
+                title: "Otherside Picnic",
+                author: "Iori Miyazawa",
+                isbn: "9780201633610",
+                factory: factory);
 
-            Console.WriteLine("\n{ ginseng2, pennywort2 }");
-            ginseng2.PrintDetails();
-            pennywort2.PrintDetails();
+            Console.WriteLine();
 
-            Console.WriteLine("\n{ show all herb types }");
-            herbFactory.ListAllHerbTypes();
-            HerbItem ginger = new HerbItem("ขิงตากแห้ง", 1, "ธรรมดา", "ขิง", "ร้อน", "ทำลายล้างความหนาวเย็นและพิษร้าย", herbFactory);
+            copy1.printBorrowReceipt();
+            copy2.printBorrowReceipt();
+            copy3.printBorrowReceipt();
+            copy4.printBorrowReceipt();
 
-            Console.WriteLine("{ ginger }\n");
-            ginger.PrintDetails();
+            copy1.returnBook();
 
-            Console.WriteLine("\n{ show all herb types }");
-            herbFactory.ListAllHerbTypes();
+            Console.WriteLine($"จำนวน BookFlyweight ใน Pool   : {factory.PoolSize()} object");
         }
     }
 }
