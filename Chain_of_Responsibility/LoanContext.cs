@@ -6,7 +6,7 @@ namespace Chain_of_Responsibility.context
         private double amount;
         private int creditScore;
         private double income;
-        private double dtl;
+        private double dti;
 
         public LoanContext(string name, double amount, int creditScore, double income, double debt)
         {
@@ -14,7 +14,7 @@ namespace Chain_of_Responsibility.context
             this.amount = amount;
             this.creditScore = creditScore;
             this.income = income;
-            this.dtl = debt / income;
+            this.dti = debt / income;
         }
 
         public string getName()
@@ -37,9 +37,9 @@ namespace Chain_of_Responsibility.context
             return income;
         }
 
-        public double getDTL()
+        public double getDTI()
         {
-            return dtl;
+            return dti;
         }
     }
 }

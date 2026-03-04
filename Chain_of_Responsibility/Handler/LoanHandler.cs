@@ -2,14 +2,14 @@ using Chain_of_Responsibility.context;
 
 namespace Chain_of_Responsibility.Handler
 {
-    public class LoanHandler : ILoanHandler
+    public abstract class LoanHandler : ILoanHandler
     {
         private ILoanHandler? nextHandler;
 
         public ILoanHandler setNext(ILoanHandler next)
         {
             nextHandler = next;
-            return next;
+            return nextHandler;
         }
 
         public virtual void handle(LoanContext ctx)
